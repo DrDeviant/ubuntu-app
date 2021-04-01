@@ -7,9 +7,9 @@
 3. Install proot: $apt-get install proot
 4. Install git: $apt-get install git
 5. Go to HOME folder: $cd ~
-6. Download script: `git clone https://github.com/aanhariyanto/ubuntu-app.git`
+6. Download script: $git clone https://github.com/aanhariyanto/ubuntu-app.git
 7. Go to script folder: $cd ubuntu-app
-8. Give execution permission: 4chmod +x ubuntu.sh
+8. Give execution permission: $chmod +x ubuntu.sh
 9. Run the script: $./ubuntu.sh
 10. Now just start ubuntu: $./startubuntu.sh
 
