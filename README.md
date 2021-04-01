@@ -15,8 +15,7 @@
 
 //--- Ubuntu
 
-apt-get update && apt-get install language-pack-en-base && apt-get install sudo && apt-get install ssh && apt-get install net-tools && apt-get install ethtool && apt-get install wireless-tools && apt-get install ifupdown && apt-get install network-manager && apt-get install iputils-ping && apt-get install rsyslog && apt-get install htop && apt-get install vim &&
-
+apt-get update && apt-get install language-pack-en-base && apt-get install sudo && apt-get install ssh && apt-get install net-tools && apt-get install ethtool && apt-get install wireless-tools && apt-get install ifupdown && apt-get install network-manager && apt-get install iputils-ping && apt-get install rsyslog && apt-get install htop && apt-get install vim
 
 //--- Desktop
 
