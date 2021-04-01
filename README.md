@@ -20,6 +20,4 @@ apt-get update && apt-get install language-pack-en-base && apt-get install sudo 
 
 //--- Desktop
 
-
-//apt-get install xinit xorg
-//apt-get install alsa-utils
+//apt-get install xinit xorg && apt-get install alsa-utils
