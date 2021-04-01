@@ -4,7 +4,7 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=ubuntu-fs
-UBUNTU_VERSION=20.04.1
+UBUNTU_VERSION=20.04.2
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;227m[WARNING]:\e[0m \x1b[38;5;87m Skipping the download and the extraction\n"
@@ -118,7 +118,7 @@ printf "\e[0m"
 if [ "$1" = "-y" ];then
 install1
 elif [ "$1" = "" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;127m[QUESTION]:\e[0m \x1b[38;5;87m Do you want to install ubuntu-in-termux? [Y/n] "
+printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;127m[QUESTION]:\e[0m \x1b[38;5;87m Do you want to install ubuntu-app? [Y/n] "
 
 read cmd1
 if [ "$cmd1" = "y" ];then
