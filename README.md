@@ -1,4 +1,4 @@
-#Updated Ubuntu 20.04.2 LTS
+#Updated Ubuntu 21.04
 
 //--- Termux
 
