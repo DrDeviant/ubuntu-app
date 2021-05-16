@@ -20,3 +20,59 @@ apt-get update && apt-get install language-pack-en-base && apt-get install sudo 
 //--- Desktop
 
 //apt-get install xinit xorg && apt-get install alsa-utils
+
+
+// LAMP SERVER UBUNTU 21.04 TERMUX
+
+apt-get install termux-am
+apt-get install termux-api
+apt-get install termux-apt-repo
+apt-get install termux-create-package
+apt-get install termux-elf-cleaner
+apt-get install termux-tools
+apt-get install termux-exec
+
+# Termux Autostart
+# Create/append to:  ~/.bashrc
+
+cd ~ && touch .bashrc && chmod +x .bashrc && nano .bashrc
+
+if ! pgrep -f "ubuntu" >/dev/null ; then echo "" && ubuntu-app/./startubuntu.sh; else echo ""; fi
+
+// ----------------------------------------
+
+exit
+
+// ----------------------------------------
+
+echo "localhost" > /etc/hostname
+echo "127.0.0.1 localhost" >> /etc/hosts
+
+apt-get update
+apt-get upgrade
+apt-get install sudo
+apt-get install nano
+apt-get install proot
+
+// ----------------------------------------
+
+// install apache2 & mysql (unfinish)
+
+// ----------------------------------------
+
+# Ubuntu-app Autostart
+# Create/append to:  ~/.bash_profile
+
+touch .bash_profile
+chmod +x .bash_profile
+nano .bash_profile
+
+if ! pgrep -f "apache2" >/dev/null ; then echo "" && /etc/init.d/apache2 start; else echo ""; fi
+if ! pgrep -f "mysql" >/dev/null ; then echo "" && /etc/init.d/mysql start; else echo ""; fi
+
+// ----------------------------------------
+
+cat /etc/issue
+
+// ----------------------------------------
+
